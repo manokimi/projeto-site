@@ -1,18 +1,20 @@
-* {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-}
 body{
-    background-color: rgb(134, 74, 190);
-}
 
-img.lado{
-    float: right
+    min-height: 100vh;
+
+    background: linear-gradient( #2C6CBC, #71C3F7);
+
 }
 main {
     background-color: white;
-    width: 500px;
-    margin: auto;
-    padding: 10px;
-    box-shadow: 3px 3px 5px rgb(140, 40, 40) ;
+
+    width: 90%;
+    max-width: 800px;
+
+    margin: 40px auto;
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
