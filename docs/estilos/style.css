@@ -1,10 +1,17 @@
-body{
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    p {
+        font-size: 1.05em;
+        margin: 0px 7px;
+    }
 
     min-height: 100vh;
 
-    background: linear-gradient( #2C6CBC, #71C3F7);
+    background: linear-gradient(#2C6CBC, #71C3F7);
 
 }
+
 main {
     background-color: white;
 
@@ -16,5 +23,5 @@ main {
 
     border-radius: 12px;
 
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
