@@ -5,6 +5,10 @@ body {
         font-size: 1.05em;
         margin: 0px 7px;
     }
+    
+    .titulo{
+        text-align: center;
+    }
 
     min-height: 100vh;
 
