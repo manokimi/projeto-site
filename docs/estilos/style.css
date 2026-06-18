@@ -5,8 +5,8 @@ body {
         font-size: 1.05em;
         margin: 0px 7px;
     }
-    
-    .titulo{
+
+    .titulo {
         text-align: center;
     }
 
@@ -14,6 +14,30 @@ body {
 
     background: linear-gradient(#2C6CBC, #71C3F7);
 
+    .traducao {
+        margin-bottom: 25px;
+        padding-left: 15px;
+        border-left: 4px solid #2C6CBC;
+    }
+
+    .portugues {
+        display: none;
+        margin-top: 10px;
+        color: #555;
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
+
+        transition:
+            opacity 0.4s ease,
+            max-height 0.4s ease;
+    }
+
+    .traducao:hover .portugues {
+        display: block;
+        opacity: 1;
+        max-height: 500px;
+    }
 }
 
 main {
