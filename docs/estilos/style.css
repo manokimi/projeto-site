@@ -10,6 +10,15 @@ body {
         text-align: center;
     }
 
+    a{
+        text-decoration: none;
+        color:blue;
+    }
+
+    a:hover{
+        text-decoration: underline
+    }
+
     min-height: 100vh;
 
     background: linear-gradient(#2C6CBC, #71C3F7);
